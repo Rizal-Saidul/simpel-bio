@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Pertemuan 2</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #1a1b2c;
+        color: #fff;
+      }
+      .container {
+        max-width: 1000px;
+        height: 85vh;
+        margin: 50px auto;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        padding: 20px;
+      }
+      .profil-image img{
+        width: 320px;
+        
+      }
+      .about {
+        flex: 1;
+      }
+      
+      .about h1::after {
+  content: "";
+  display: block;
+  width: 63px;
+  height: 4px;
+  background: #f24b4b;
+  margin-top: 4px;
+}
+      .about h1{
+        margin: 5px 0 15px;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      .about p {
+        line-height: 1.6;
+        font-size: 15px;
+        color: #ddd;
+      }
+      .info-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 20px;
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 2px solid #b23939;
+        padding: 20px;
+      }
+      .info-box span {
+        font-weight: bold;
+        color: #f24b4b;
+      }
+    </style>
+
+  </head>
+  <body >
+    <div class="container">
+
+      <!-- image -->
+      <div class="profil-image">
+        <img src="./photo-profil.png"/>
+      </div>
+      
+      <!-- profil -->
+     <div class="about">
+       <!-- name -->
+       
+      <h1>Saidul Rizal</h1>
+      <p>Mahasiswa Pendidikan Matematika dengan minat di bidang teknologi dan pengembangan web. Berpengalaman dalam HTML, CSS, JavaScript, React, serta dasar-dasar backend dengan Node.js dan MongoDB. Berorientasi pada pembelajaran berkelanjutan dan memiliki komitmen untuk berkembang sebagai Fullstack Developer.</p>
+      
+      
+      <!-- Info -->
+      <div class="info-box">
+        <div><span>Name:</span> Muhamad Sa'idul Rizal</div>
+        <div><span>NIM:</span> 220108110059</div>
+        <div><span>Program:</span> Tadris Matematika</div>
+        <div><span>Age:</span> 22</div>
+        <div><span>Role:</span> Mahasiswa</div>
+        <div><span>Email:</span> 220108110059@student.uin-malang.ac.id</div>
+        <div><span>Phone:</span> +62 8233 0683 065</div>
+        <div><span>Address:</span> Banyuwangi</div>
+      
+      
+      
+      </div>
+      </div>
+      
+      
+      <script></script>
+    </div>
+    </body>
+    </html>
+    
